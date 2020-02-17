@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/biomedia-mira/dixonfix.svg?branch=master)](https://travis-ci.org/biomedia-mira/dixonfix)
 
-*dixonfix* is a command line tool to correct fat-water swaps in Dixon MRI. It makes us of graph cut optimization to determine a pixel-wise swap labelling.
+*dixonfix* is a command line tool to correct fat-water swaps in Dixon MRI. It makes use of graph cut optimization to determine a pixel-wise swap labelling.
 
 ```
 @inproceedings{glocker2016correction,
