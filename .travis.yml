@@ -5,14 +5,14 @@
 dist: xenial  # Ubuntu 16.04
 
 install:
-  - sudo apt-get install libboost-all-dev libtbb-dev
+  - sudo apt-get install libboost-all-dev
 
 script:
   - ./build.sh
-  - ./build/drop/apps/dropreg/dropreg --help
+  - ./build/dixonfix/dixonfix --help
 
 #after_success:
-#  - ./build/drop/apps/dropreg/dropreg --help
+#  - ./build/dixonfix/dixonfix --help
 
 notifications:
   email: false
